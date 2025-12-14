@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+#playerPool {
+  list-style: none;
+  padding: 0;
+}
+
+#playerPool li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #f4f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#playerPool li:hover {
+  background: #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
