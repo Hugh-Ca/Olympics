@@ -1,11 +1,11 @@
 let league = JSON.parse(localStorage.getItem("league")) || {
   teams: [],
   players: [
-    { name: "Patrick Mahomes", points: 25 },
-    { name: "Christian McCaffrey", points: 22 },
-    { name: "Tyreek Hill", points: 18 },
-    { name: "Josh Allen", points: 24 },
-    { name: "Justin Jefferson", points: 20 }
+    { name: "Courtney SARAULT - CAN", points: 15.7 },
+    { name: "Corrine STODDARD - USA", points: 13.49 },
+    { name: "Xandra VELZEBOER - NED", points: 11.72 },
+    { name: "Minjeong CHOI - KOR", points: 10.97 },
+    { name: "Gilli KIM - KOR", points: 9.19 }
   ]
 };
 
