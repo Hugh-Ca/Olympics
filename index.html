@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fantasy League</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🏈 Fantasy League</h1>
+
+  <section>
+    <h2>Add Team</h2>
+    <input id="teamName" placeholder="Team name" />
+    <button onclick="addTeam()">Add Team</button>
+  </section>
+
+  <section>
+    <h2>Select Team</h2>
+    <select id="teamSelect"></select>
+  </section>
+
+  <section>
+    <h2>Available Players</h2>
+    <ul id="playerPool"></ul>
+  </section>
+
+  <section>
+    <h2>Standings</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody id="standings"></tbody>
+    </table>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
